@@ -20,7 +20,7 @@ if($password === "sealionsroar"){
 	header("Location: index.php");
 }
 
-$con=mysqli_connect($mysql_server,$mysql_server,$mysql_password,$mysql_db);
+$con=mysqli_connect($mysql_server,$mysql_user,$mysql_password,$mysql_db);
 
 if (mysqli_connect_errno())
   {
