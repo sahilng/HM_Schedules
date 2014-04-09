@@ -22,7 +22,7 @@ function printName($name){
 
 $free = $_POST['free'];
 
-echo "<h1>These people have: " . $free . " free.";
+echo "<h1>These people have: " . $free . " free.</h1>";
 
 $con=mysqli_connect($mysql_server,$mysql_user,$mysql_password,$mysql_db);
 
