@@ -14,13 +14,15 @@ $trimester = "Q3";
 $password = $_POST['pw'];
 $user = $_POST['uid'];
 
-if($password === "sealionsroar"){
+
+if($password === "hmlions"){
 	
 }else{
 	header("Location: index.php");
 }
 
 $con=mysqli_connect($mysql_server,$mysql_user,$mysql_password,$mysql_db);
+
 
 if (mysqli_connect_errno())
   {
