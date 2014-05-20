@@ -12,18 +12,14 @@
 require 'keys.php';
 $trimester = "Q3";
 
-if(isset($_POST['pw']) && isset($_POST['uid'])){
+if(isset($_GET["user"]){
+	$password = "hmlions":
+	$user = $_GET["user"];
+}
+else{
 	$password = $_POST['pw'];
 	$user = $_POST['uid'];
 }
-else if(isset $_GET['user']){
-	$password = 'hmlions';
-	$user = $_GET['user'];
-}
-else{
-	header("Location: index.php");
-}
-
 
 if($password === "hmlions"){
 	
