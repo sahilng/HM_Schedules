@@ -14,12 +14,8 @@ $trimester = "Q3";
 
 $password = $_POST['pw'];
 
-if(isset($_GET['user'])){
-	$user = $_GET['user'];
-}
-else{
-	$user = $_POST['uid'];
-}
+$user = $_POST['uid'];
+
 
 
 
