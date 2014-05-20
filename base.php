@@ -12,10 +12,15 @@
 require 'keys.php';
 $trimester = "Q3";
 
-$user = $_GET['user'];
-
 $password = $_POST['pw'];
-$user = $_POST['uid'];
+
+if(isset($_GET['user'])){
+	$user = $_GET['user'];
+}
+else{
+	$user = $_POST['uid'];
+}
+
 
 
 if($password === "hmlions"){
