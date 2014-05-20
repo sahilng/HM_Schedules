@@ -12,6 +12,7 @@
 require 'keys.php';
 $trimester = "Q3";
 
+$user = $_GET['user'];
 
 $password = $_POST['pw'];
 $user = $_POST['uid'];
